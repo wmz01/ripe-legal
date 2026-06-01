@@ -10,7 +10,7 @@
   <main>
     <a class="back" href="index.html">← Back</a>
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Last updated: May 26, 2026</p>
+    <p class="last-updated">Last updated: June 1, 2026</p>
 
     <p class="intro">
       This Privacy Policy explains how CAPRA ("we," "us," or "our") collects, uses,
@@ -29,7 +29,8 @@
     <p><strong>Information collected automatically:</strong></p>
     <ul>
       <li>Device location — only when you grant permission and only when the app is in the foreground, used to detect gym arrivals for check-in prompts. We do not store a history of your location.</li>
-      <li>App usage data (session check-ins, intents logged, reliability score) — used to power the app's features, not sold or used for advertising.</li>
+      <li>App usage data (screen views, feature interactions, anonymous user identifier) — collected via PostHog Analytics to understand how the app is used. Not sold or used for advertising.</li>
+      <li>Diagnostic data (crash reports, error stack traces, device model, OS version, app version) — collected via Sentry when the app encounters an error, used solely to diagnose and fix bugs.</li>
     </ul>
 
     <h2>2. How We Use Your Information</h2>
@@ -43,11 +44,18 @@
     </ul>
     <p>We do not use your data for targeted advertising, and we never sell your information to third parties.</p>
 
-    <h2>3. Information Sharing</h2>
+    <h2>3. Information Sharing &amp; Service Providers</h2>
     <p><strong>With friends you choose:</strong> Your display name, profile photo, and climbing plans are visible only to mutual friends within the app.</p>
-    <p><strong>Service providers:</strong> We use Supabase (supabase.com) as our backend infrastructure provider for authentication, database, and file storage. Supabase processes your data on our behalf under a data processing agreement.</p>
+    <p><strong>Service providers we use:</strong> The following third-party processors handle data on our behalf under standard data processing agreements. None of them use your data for their own purposes or for advertising.</p>
+    <ul>
+      <li><strong>Supabase</strong> (supabase.com) — backend infrastructure for authentication, database, and photo storage.</li>
+      <li><strong>PostHog</strong> (posthog.com) — product analytics (anonymous usage events and feature interactions).</li>
+      <li><strong>Sentry</strong> (sentry.io) — crash and error diagnostics.</li>
+      <li><strong>Google Cloud Vision</strong> — automated NSFW screening of uploaded photos. Images are sent to Google for classification only and are not retained by Google after the request completes.</li>
+    </ul>
+    <p><strong>Contacts:</strong> If you opt in to the "Find friends from contacts" feature, your contacts' phone numbers are transmitted to our backend solely to look up which numbers belong to existing CAPRA users. The phone numbers are not stored, logged, or used for any other purpose — they are discarded after the lookup completes.</p>
     <p><strong>Legal requirements:</strong> We may disclose your information if required to do so by law or in response to valid legal process.</p>
-    <p>We do not share your information with advertisers, data brokers, or any other third parties beyond the above.</p>
+    <p>We do not share your information with advertisers, data brokers, or any other third parties beyond the above. We do not engage in cross-app tracking and do not link your data with data from other companies' apps or websites.</p>
 
     <h2>4. Data Retention</h2>
     <ul>
@@ -75,13 +83,16 @@
     <h2>8. Children's Privacy</h2>
     <p>CAPRA is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact us and we will delete it promptly.</p>
 
-    <h2>9. Security</h2>
+    <h2>9. Analytics &amp; Tracking</h2>
+    <p>We use PostHog and Sentry to understand how the app is used and to diagnose problems. These tools collect anonymous identifiers, screen-view events, feature-interaction events, and crash diagnostics. They do <strong>not</strong> use advertising identifiers (such as Apple's IDFA), and we do not track you across other companies' apps or websites. Because we do not engage in "tracking" as defined by Apple's App Tracking Transparency framework, we do not display an ATT prompt.</p>
+
+    <h2>10. Security</h2>
     <p>We implement industry-standard technical and organisational measures to protect your information, including encrypted data transmission (TLS) and secure cloud storage. However, no method of transmission over the internet is 100% secure, and we cannot guarantee absolute security.</p>
 
-    <h2>10. Changes to This Policy</h2>
+    <h2>11. Changes to This Policy</h2>
     <p>We may update this Privacy Policy from time to time. We will notify you of material changes via a notice in the app. Your continued use of CAPRA after changes are posted constitutes your acceptance of the revised policy.</p>
 
-    <h2>11. Contact Us</h2>
+    <h2>12. Contact Us</h2>
     <p>For privacy-related questions or requests, please email us at <a href="mailto:support@sendsesh.com">support@sendsesh.com</a>.</p>
   </main>
 </body>
