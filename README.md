@@ -1,4 +1,4 @@
-# CAPRA Legal — Hosted Site
+# Ripe Legal — Hosted Site
 
 Static HTML for the privacy policy and terms of service. Hosted publicly so
 App Store Connect and Google Play Console can link to canonical URLs.
@@ -16,16 +16,16 @@ WebView pointed at these URLs).
 
 ## Deploy to GitHub Pages (recommended, ~5 min)
 
-1. Create a new **public** GitHub repo, e.g. `capra-legal`.
+1. Create a new **public** GitHub repo, e.g. `ripe-legal`.
 2. Copy the contents of this `legal/` folder into the root of the new repo
    (the `index.html` must be at the repo root, not in a subfolder).
 3. Push to `main`.
 4. Repo Settings → Pages → **Source: Deploy from a branch** → branch `main`,
    folder `/ (root)` → Save.
 5. Wait ~1 minute. Your URLs will be:
-   - `https://<username>.github.io/capra-legal/` (landing)
-   - `https://<username>.github.io/capra-legal/privacy.html`
-   - `https://<username>.github.io/capra-legal/terms.html`
+   - `https://<username>.github.io/ripe-legal/` (landing)
+   - `https://<username>.github.io/ripe-legal/privacy.html`
+   - `https://<username>.github.io/ripe-legal/terms.html`
 
 ## Where to paste the URLs
 
