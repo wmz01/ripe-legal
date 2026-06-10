@@ -23,9 +23,9 @@ WebView pointed at these URLs).
 4. Repo Settings → Pages → **Source: Deploy from a branch** → branch `main`,
    folder `/ (root)` → Save.
 5. Wait ~1 minute. Your URLs will be:
-   - `https://<username>.github.io/ripe-legal/` (landing)
-   - `https://<username>.github.io/ripe-legal/privacy.html`
-   - `https://<username>.github.io/ripe-legal/terms.html`
+   - `https://legal.ripeclimb.com/` (landing, via CNAME)
+   - `https://legal.ripeclimb.com/privacy.html`
+   - `https://legal.ripeclimb.com/terms.html`
 
 ## Where to paste the URLs
 
